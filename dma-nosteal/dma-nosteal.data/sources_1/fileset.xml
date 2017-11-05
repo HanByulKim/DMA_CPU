@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DARoots Version="1" Minor="30">
+  <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/Register.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/Register.v"/>
+        <Attr Name="ImportTime" Val="1497472490"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/Hazard_Detection_unit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/Hazard_Detection_unit.v"/>
+        <Attr Name="ImportTime" Val="1497472490"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/Forwarding_unit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/Forwarding_unit.v"/>
+        <Attr Name="ImportTime" Val="1497472490"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/opcodes.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/opcodes.v"/>
+        <Attr Name="ImportTime" Val="1497472490"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/mapping.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/mapping.v"/>
+        <Attr Name="ImportTime" Val="1497472490"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/Control_unit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/Control_unit.v"/>
+        <Attr Name="ImportTime" Val="1497472490"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/states.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/states.v"/>
+        <Attr Name="ImportTime" Val="1497472490"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/Cache.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/Cache.v"/>
+        <Attr Name="ImportTime" Val="1497472490"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/ALUCtrl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/ALUCtrl.v"/>
+        <Attr Name="ImportTime" Val="1497472490"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/ALU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/ALU.v"/>
+        <Attr Name="ImportTime" Val="1497472490"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/datapath.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/datapath.v"/>
+        <Attr Name="ImportTime" Val="1497472490"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/memory.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/memory.v"/>
+        <Attr Name="ImportTime" Val="1497472490"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/external_device.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/external_device.v"/>
+        <Attr Name="ImportTime" Val="1497530809"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/DMA.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/DMA.v"/>
+        <Attr Name="ImportTime" Val="1497530673"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/cpu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/cpu.v"/>
+        <Attr Name="ImportTime" Val="1497472490"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/cpu_TB.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/cpu_TB.v"/>
+        <Attr Name="ImportTime" Val="1497472490"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="cpu_TB"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+</DARoots>

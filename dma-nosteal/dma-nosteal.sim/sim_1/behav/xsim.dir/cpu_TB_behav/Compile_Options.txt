@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "work" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "cpu_TB_behav" --prj "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.sim/sim_1/behav/cpu_TB.prj" "work.cpu_TB" "work.glbl" 

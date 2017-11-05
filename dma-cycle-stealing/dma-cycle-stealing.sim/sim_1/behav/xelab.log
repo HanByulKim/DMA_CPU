@@ -1,0 +1,60 @@
+Vivado Simulator 2013.4
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2013.4/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_TB_behav --prj C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.sim/sim_1/behav/cpu_TB.prj work.cpu_TB work.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/Register.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/Hazard_Detection_unit.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/Forwarding_unit.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/Control_unit.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/Cache.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/ALUCtrl.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/ALU.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/datapath.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/memory.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/external_device.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/DMA.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/cpu.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/cpu_TB.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Xilinx/Vivado/2013.4/data/verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/DMA.v" Line 20. Module DMA doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/external_device.v" Line 16. Module external_device doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/datapath.v" Line 5. Module Datapath doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/Control_unit.v" Line 12. Module Control_unit doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/Hazard_Detection_unit.v" Line 1. Module Hazard_Detection_unit doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/Forwarding_unit.v" Line 1. Module Forwarding_unit doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/ALUCtrl.v" Line 2. Module ALUctrl_unit doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/ALU.v" Line 3. Module ALU doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/Cache.v" Line 16. Module Cache doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/Cache.v" Line 16. Module Cache doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/DMA.v" Line 20. Module DMA doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/external_device.v" Line 16. Module external_device doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/datapath.v" Line 5. Module Datapath doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/Control_unit.v" Line 12. Module Control_unit doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/Hazard_Detection_unit.v" Line 1. Module Hazard_Detection_unit doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/Forwarding_unit.v" Line 1. Module Forwarding_unit doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/ALUCtrl.v" Line 2. Module ALUctrl_unit doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/ALU.v" Line 3. Module ALU doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/Cache.v" Line 16. Module Cache doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/dma-cycle-stealing/dma-cycle-stealing.srcs/sources_1/imports/DMA/Cache.v" Line 16. Module Cache doesn't have a timescale but atleast one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.DMA
+Compiling module work.external_device
+Compiling module work.Control_unit
+Compiling module work.Register
+Compiling module work.Hazard_Detection_unit
+Compiling module work.Forwarding_unit
+Compiling module work.ALUctrl_unit
+Compiling module work.ALU
+Compiling module work.Cache
+Compiling module work.Datapath
+Compiling module work.cpu
+Compiling module work.Memory
+Compiling module work.cpu_TB
+Compiling module work.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot cpu_TB_behav

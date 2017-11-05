@@ -1,0 +1,98 @@
+#-----------------------------------------------------------
+# Vivado v2013.4 (64-bit)
+# SW Build 353583 on Mon Dec  9 17:49:19 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Thu Jun 15 23:22:34 2017
+# Process ID: 12120
+# Log file: C:/Users/Administrator/Desktop/dma-nosteal/vivado.log
+# Journal file: C:/Users/Administrator/Desktop/dma-nosteal\vivado.jou
+#-----------------------------------------------------------
+Attempting to get a license: Implementation
+Feature available: Implementation
+Loading parts and site information from C:/Xilinx/Vivado/2013.4/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/Vivado/2013.4/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/Vivado/2013.4/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+open_project {C:\Users\Administrator\Desktop\dma-nosteal\dma-nosteal.xpr}
+Scanning sources...
+Finished scanning sources
+launch_xsim -simset sim_1 -mode behavioral
+INFO: [Runs 36-130] *** Running xelab
+    with args "-m64 --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_TB_behav --prj C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.sim/sim_1/behav/cpu_TB.prj   work.cpu_TB   work.glbl"
+Vivado Simulator 2013.4
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2013.4/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -L work -L unisims_ver -L unimacro_ver -L secureip --snapshot cpu_TB_behav --prj C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.sim/sim_1/behav/cpu_TB.prj work.cpu_TB work.glbl 
+Multi-threading is on. Using 2 slave threads.
+Determining compilation order of HDL files.
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/Register.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/Hazard_Detection_unit.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/Forwarding_unit.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/Control_unit.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/Cache.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/ALUCtrl.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/ALU.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/datapath.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/memory.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/external_device.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/DMA.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/cpu.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/cpu_TB.v" into library work
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Xilinx/Vivado/2013.4/data/verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/DMA.v" Line 20. Module DMA doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/external_device.v" Line 16. Module external_device doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/datapath.v" Line 5. Module Datapath doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/Control_unit.v" Line 12. Module Control_unit doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/Hazard_Detection_unit.v" Line 1. Module Hazard_Detection_unit doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/Forwarding_unit.v" Line 1. Module Forwarding_unit doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/ALUCtrl.v" Line 2. Module ALUctrl_unit doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/ALU.v" Line 3. Module ALU doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/Cache.v" Line 16. Module Cache doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/Cache.v" Line 16. Module Cache doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/DMA.v" Line 20. Module DMA doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/external_device.v" Line 16. Module external_device doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/datapath.v" Line 5. Module Datapath doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/Control_unit.v" Line 12. Module Control_unit doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/Hazard_Detection_unit.v" Line 1. Module Hazard_Detection_unit doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/Forwarding_unit.v" Line 1. Module Forwarding_unit doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/ALUCtrl.v" Line 2. Module ALUctrl_unit doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/ALU.v" Line 3. Module ALU doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/Cache.v" Line 16. Module Cache doesn't have a timescale but atleast one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/Cache.v" Line 16. Module Cache doesn't have a timescale but atleast one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.DMA
+Compiling module work.external_device
+Compiling module work.Control_unit
+Compiling module work.Register
+Compiling module work.Hazard_Detection_unit
+Compiling module work.Forwarding_unit
+Compiling module work.ALUctrl_unit
+Compiling module work.ALU
+Compiling module work.Cache
+Compiling module work.Datapath
+Compiling module work.cpu
+Compiling module work.Memory
+Compiling module work.cpu_TB
+Compiling module work.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot cpu_TB_behav
+INFO: [Runs 36-26] xelab completed.
+INFO: [Vivado 12-1390] *** Running xsim
+    with args "cpu_TB_behav -key {Behavioral:sim_1:Functional:cpu_TB} -tclbatch {cpu_TB.tcl} -log {cpu_TB_behav.log}"
+Vivado Simulator 2013.4
+Time resolution is 1 ps
+INFO: [Vivado 12-1395] XSim completed. Design snapshot 'cpu_TB_behav' loaded.
+launch_xsim: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 872.777 ; gain = 20.387
+run all
+$finish called at time : 46200 ns : File "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/external_device.v" Line 54
+run 400 us
+Clock # 4207
+The testbench is finished. Summarizing...
+All Pass!
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 15 23:23:05 2017...

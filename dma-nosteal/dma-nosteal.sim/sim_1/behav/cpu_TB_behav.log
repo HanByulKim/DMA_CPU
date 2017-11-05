@@ -1,0 +1,6 @@
+Vivado Simulator 2013.4
+Time resolution is 1 ps
+$finish called at time : 46200 ns : File "C:/Users/Administrator/Desktop/dma-nosteal/dma-nosteal.srcs/sources_1/imports/DMA-a26504dd2cc72ac5bc3073ecd78dd6c8f3e57f5a/external_device.v" Line 54
+Clock # 4207
+The testbench is finished. Summarizing...
+All Pass!

@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2013.4 (64-bit)
+# SW Build 353583 on Mon Dec  9 17:49:19 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Thu Jun 15 23:22:34 2017
+# Process ID: 12120
+# Log file: C:/Users/Administrator/Desktop/dma-nosteal/vivado.log
+# Journal file: C:/Users/Administrator/Desktop/dma-nosteal\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Users\Administrator\Desktop\dma-nosteal\dma-nosteal.xpr}
+launch_xsim -simset sim_1 -mode behavioral
+run all
+run 400 us
+close_sim

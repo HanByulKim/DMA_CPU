@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cpu_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="cpu_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="33" />
+   <wvobject fp_name="/cpu_TB/reset_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/i_readM" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i_readM</obj_property>
+      <obj_property name="ObjectShortName">i_readM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/i_writeM" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">i_writeM</obj_property>
+      <obj_property name="ObjectShortName">i_writeM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/i_address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i_address[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i_address[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/i_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">i_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/d_readM" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">d_readM</obj_property>
+      <obj_property name="ObjectShortName">d_readM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/d_writeM" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d_writeM[1:0]</obj_property>
+      <obj_property name="ObjectShortName">d_writeM[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/d_address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d_address[15:0]</obj_property>
+      <obj_property name="ObjectShortName">d_address[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/d_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">d_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">d_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/cpu_d_writeM" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cpu_d_writeM</obj_property>
+      <obj_property name="ObjectShortName">cpu_d_writeM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/cpu_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cpu_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/cpu_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cpu_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/output_port" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output_port[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_port[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/is_halted" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">is_halted</obj_property>
+      <obj_property name="ObjectShortName">is_halted</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/num_inst" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">num_inst[15:0]</obj_property>
+      <obj_property name="ObjectShortName">num_inst[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/cmd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cmd</obj_property>
+      <obj_property name="ObjectShortName">cmd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/BR" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">BR</obj_property>
+      <obj_property name="ObjectShortName">BR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/BG" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">BG</obj_property>
+      <obj_property name="ObjectShortName">BG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/dma_start_int" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dma_start_int</obj_property>
+      <obj_property name="ObjectShortName">dma_start_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/dma_end_int" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dma_end_int</obj_property>
+      <obj_property name="ObjectShortName">dma_end_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/edata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">edata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">edata[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/dma_WRITE" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dma_WRITE</obj_property>
+      <obj_property name="ObjectShortName">dma_WRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/dma_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dma_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">dma_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/dma_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dma_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">dma_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/offset" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">offset[1:0]</obj_property>
+      <obj_property name="ObjectShortName">offset[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/TestID" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">TestID[55:0][39:0]</obj_property>
+      <obj_property name="ObjectShortName">TestID[55:0][39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/TestNumInst" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">TestNumInst[55:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">TestNumInst[55:0][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/TestAns" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">TestAns[55:0][15:0]</obj_property>
+      <obj_property name="ObjectShortName">TestAns[55:0][15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/TestPassed" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">TestPassed[55:0]</obj_property>
+      <obj_property name="ObjectShortName">TestPassed[55:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">i[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/num_clock" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">num_clock[15:0]</obj_property>
+      <obj_property name="ObjectShortName">num_clock[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_TB/Passed" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Passed[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Passed[15:0]</obj_property>
+   </wvobject>
+</wave_config>
